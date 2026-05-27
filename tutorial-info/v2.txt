@@ -1,0 +1,27 @@
+Project Setup (python env, requirements, .env, irst run)
+
+STEP 1 : Create Project Folder
+
+mkdir folder-name
+cd folder- name
+
+STEP 2 : UV
+
+pip install uv OR pip3 install uv
+
+STEP 3 : Create virtual Env
+
+STEP 4 : install required packages
+
+STEP 5 : Setup .env file
+
+STEP 6 : Create Basic Folder Structure
+
+New-Item core\__init__.py -ItemType File
+New-Item detectors\__init__.py -ItemType File
+New-Item services\__init__.py -ItemType File
+New-Item ml_models\__init__.py -ItemType File
+New-Item services\vision\__init__.py -ItemType File
+
+STEP 7 : Add main.py
+
